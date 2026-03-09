@@ -8,7 +8,6 @@ const Navbar = () => {
     <nav className="w-full bg-white border-b border-gray-100 py-2 px-6 md:px-12">
       <div className="max-w-7xl mx-auto flex items-center justify-between gap-8">
 
-        {/* Логотип */}
         <Link href="/" className="flex items-center">
           <Image
             src="/zomera-logo.png"
@@ -20,7 +19,6 @@ const Navbar = () => {
           />
         </Link>
 
-        {/* Поисковая строка */}
         <div className="flex-grow max-w-2xl relative">
           <input
             type="text"
@@ -30,7 +28,6 @@ const Navbar = () => {
           <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
         </div>
 
-        {/* Иконки и кнопка */}
         <div className="flex items-center gap-6">
           <button className="text-gray-700 hover:text-green-500 transition-colors">
             <Heart className="w-6 h-6 stroke-[1.5]" />
